@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    background-color: darkred;
+}
+.container{
+    width: 350px;
+    height: 500px;
+    background: ghostwhite;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+h1{
+    background: black;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px 10px 10px 30px;
+}
+p{
+    padding-left: 20px;
+    font-size: 15px;
+}
+input{
+    padding: 10px;
+    margin-left: 25px;
+}
+.rating{
+    padding:10px 10px 10px 30px;
+    margin-left: 40px;
+    width: 250px;
+    font-size: 20spx;
+
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    background: #FF0000;
+    color: white;
+    font-size: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    display: block;
+    text-transform: uppercase;
+
+}
+#totaltip{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+#totaltip:before{
+    content: "Total Tip";
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+#totaltip sup{
+    font-size: 20px;
+    top: -18px;
+}
+#totaltip small{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
