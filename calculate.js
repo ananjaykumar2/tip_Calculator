@@ -8,8 +8,8 @@ function calculate(){
         alert("Enter value");
         return;
     }
-    if(isNaN(amount){
-        alert("Amount Aceepted Only Numeric Data");
+    if (isNaN(amount)) {
+        alert("Amount Aceept Only Numeric Data");
        }
     if(people===""|| people<=0){
     people = 1;
