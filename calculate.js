@@ -10,6 +10,7 @@ function calculate(){
     }
     if (isNaN(amount)) {
         alert("Amount Aceept Only Numeric Data");
+        return;
        }
     if(people===""|| people<=0){
     people = 1;
